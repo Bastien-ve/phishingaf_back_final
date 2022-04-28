@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": " node index.js cross-env NODE_ENV=production webpack --config build/index.config.js"
+    "build": " nodemon build index.js"
 
   },
   "author": "Bastien Verstappen",
